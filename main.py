@@ -64,3 +64,4 @@ horse1 = Horse(2019, True)
 horse1.run()
 
 cat1.play_with_human('조경진')
+cat1.run()
