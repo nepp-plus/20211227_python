@@ -1,3 +1,4 @@
+from cat import Cat
 from dog import Dog
 
 
@@ -43,3 +44,13 @@ if num1 == 10:
     print(num2)
     
 print(num2)
+
+
+# 고양이 한마리 생성.
+
+# Cat클래스는 Animal 클래스로부터 생성자도 물려받은 상태.
+# 출생년도, 성별을 넣어야 하는 이유.
+cat1 = Cat(2014, True)
+
+# Cat은 동물의 일종. => 동물이 하는 기능은 전부 수행 가능.
+cat1.run()
